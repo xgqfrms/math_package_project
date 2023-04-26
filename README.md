@@ -1,2 +1,9 @@
 # math_package_project
-xgqfrms's first Python PyPI Package https://pypi.org/project/math-package-xgqfrms/
+
+> This is the GitHub repository for xgqfrms' first Python PyPI package `math_package_project`. 🐍
+
+https://pypi.org/user/xgqfrms/
+
+https://pypi.org/project/math-package-xgqfrms/
+
+https://pypi.org/project/math-package-xgqfrms/0.0.1/

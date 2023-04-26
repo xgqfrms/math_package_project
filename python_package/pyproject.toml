@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "math_package_xgqfrms"
+version = "0.0.1"
+authors = [
+  { name="xgqfrms", email="xgqfrms@xgqfrms.xyz" },
+]
+description = "A math package of python 3. 🐍"
+# summary = "Addition, subtraction, multiplication and division"
+# Additional properties are not allowed ('summary' was unexpected)Even Better TOML ❌
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: MIT License",
+]
+keywords = [
+  "math",
+  "package",
+  "python",
+  "xgqfrms",
+  "linux",
+]
+license = "MIT"
+# license_files = "LICENSE"
+# Additional properties are not allowed ('license_files' was unexpected)Even Better TOML ❌
+
+
+
+[project.urls]
+"Homepage" = "https://github.com/xgqfrms/math_package_project"
+"Bug Tracker" = "https://github.com/xgqfrms/math_package_project/issues"

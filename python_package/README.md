@@ -1,4 +1,4 @@
-# xgqfrms_package_math
+# math_package_xgqfrms
 
 > A math package of python 3. 🐍
 
@@ -26,13 +26,17 @@ $ tree
 .
 ├── LICENSE
 ├── README.md
+├── dist
+│   ├── math_package_xgqfrms-0.0.2-py3-none-any.whl
+│   └── math_package_xgqfrms-0.0.2.tar.gz
 ├── pyproject.toml
 ├── src
 │   └── math_package_xgqfrms
 │       ├── __init__.py
 │       └── math.py
 └── tests
-    └── demo.py
+    ├── demo.py
+    └── test.py
 ```
 
 
@@ -89,3 +93,17 @@ print("divide =", divide)
 # div = 3.0
 
 ```
+
+
+<!-- 
+
+```sh
+# build
+$ python3 -m build
+
+# upload
+$ python3 -m twine upload dist/*
+
+```
+
+ -->

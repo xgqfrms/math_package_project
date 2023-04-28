@@ -17,3 +17,5 @@ echo "just use the \`SHELL_MULTI_LINE_COMMENTS\` for multi-line comments in your
   comment3
   # ...
 SHELL_MULTI_LINE_COMMENTS
+
+# https://stackoverflow.com/questions/43158140/way-to-create-multiline-comments-in-bash/76127090#76127090

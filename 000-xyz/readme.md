@@ -48,6 +48,12 @@ https://pypi.org/project/gpio/
 https://github.com/pypa/packaging-problems
 
 
+> 介绍 PyPI 组织
+
+https://blog.pypi.org/posts/2023-04-23-introducing-pypi-organizations/
+
+
+
 ## tree
 
 ```sh
@@ -165,6 +171,26 @@ $ pip3 install math_package_project==0.0.1
 ```
 
 https://pypi.org/project/math-package-xgqfrms/0.0.1/
+
+
+
+## PyPI API `token` & `.pypirc`
+
+```sh
+$ cat $HOME/.pypirc
+```
+
+![](https://img2023.cnblogs.com/blog/740516/202304/740516-20230428234942329-1176776687.png)
+
+```sh
+$ vim $HOME/.pypirc
+[pypi]
+  username = your_token_name 复制粘贴到这里
+  password = your_token 复制粘贴到这里
+```
+https://test.pypi.org/help/#apitoken
+
+https://pypi.org/manage/account/token/
 
 ## refs
 
